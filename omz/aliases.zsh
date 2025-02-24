@@ -7,6 +7,6 @@ alias ga='git add -A'
 alias gs='git status'
 alias gp='git push'
 
-gc () {
+function gc () {
   git commit -m "$1"
 }
