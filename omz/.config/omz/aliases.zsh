@@ -10,3 +10,6 @@ alias gp='git push'
 function gc () {
   git commit -m "$1"
 }
+
+# Waybar
+alias rw='pkill waybar && hyprctl dispatch exec waybar'
